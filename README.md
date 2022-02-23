@@ -1,4 +1,4 @@
-# Progress-Bar
+# Loading-Bar
 
 This is a cool Loading bar that I created.
 
