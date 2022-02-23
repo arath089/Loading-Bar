@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #242424;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.text {
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  color: azure;
+  margin-bottom: 25px;
+}
+
+.box-container {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.boxLoading {
+  height: auto;
+  width: 30%;
+}
+
+.boxline1 {
+  height: 10px;
+  margin: 5px;
+  background: #1A6844;
+  -webkit-animation: animate1 5s forwards infinite;
+          animation: animate1 5s forwards infinite;
+  border-radius: 5px;
+}
+
+@-webkit-keyframes animate1 {
+  0%, 100% {
+    width: 10%;
+  }
+  50% {
+    width: 100%;
+  }
+}
+
+@keyframes animate1 {
+  0%, 100% {
+    width: 10%;
+  }
+  50% {
+    width: 100%;
+  }
+}
+
+.boxline2 {
+  height: 10px;
+  margin: 5px;
+  background: yellowgreen;
+  -webkit-animation: animate2 4.5s forwards infinite;
+          animation: animate2 4.5s forwards infinite;
+  border-radius: 5px;
+  float: right;
+}
+
+@-webkit-keyframes animate2 {
+  0%, 100% {
+    width: 10%;
+  }
+  50% {
+    width: 100%;
+  }
+}
+
+@keyframes animate2 {
+  0%, 100% {
+    width: 10%;
+  }
+  50% {
+    width: 100%;
+  }
+}
+
+.boxline3 {
+  height: 10px;
+  margin-top: 30px;
+  background: #1A6844;
+  -webkit-animation: animate3 6s forwards infinite;
+          animation: animate3 6s forwards infinite;
+  border-radius: 5px;
+}
+
+@-webkit-keyframes animate3 {
+  0% {
+    width: 10%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 10%;
+  }
+}
+
+@keyframes animate3 {
+  0% {
+    width: 10%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 10%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
